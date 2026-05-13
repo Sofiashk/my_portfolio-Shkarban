@@ -46,8 +46,7 @@ export default function MyCity() {
  
           {}
           <div style={{ display: "flex", alignItems: "center", gap: "16px", marginBottom: "20px" }}>
-            <span style={{ fontSize: "52px" }}>{getEmoji(weather.description)}</span>
-            <div>
+          <span style={{ fontSize: "16px", color: "#64748b" }}>{getEmoji(weather.description)}</span>            <div>
               <div style={{ fontSize: "48px", fontWeight: "bold", color: "#4f46e5", lineHeight: 1 }}>
                 {weather.tempC}°C
               </div>
