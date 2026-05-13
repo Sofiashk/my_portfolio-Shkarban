@@ -1,4 +1,4 @@
-function AboutMe() {
+function AboutMe() {//про себе + посилання на репо
   return (
     <div
       style={{

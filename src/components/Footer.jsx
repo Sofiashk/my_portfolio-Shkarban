@@ -1,4 +1,4 @@
-function Footer() {
+function Footer() {//контакти
   return (
     <footer className="footer">
 
